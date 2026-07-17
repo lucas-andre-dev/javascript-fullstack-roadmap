@@ -12,7 +12,7 @@ const mensagem=`
     Idade: ${idade}
     Profissão: ${profissao}
     Cidade: ${cidade}
-    Estudando Javascript: ${Estudando ? "Sim" : "Não"}
+    Estudando Javascript: ${estudando ? "Sim" : "Não"}
     ${limitador}
     TIPOS DAS VARIAVEIS
     ${limitador}
@@ -20,7 +20,7 @@ const mensagem=`
     tipo de idade: ${typeof idade}
     tipo de profissao: ${typeof profissao}
     tipod de cidade: ${typeof cidade}
-    tipo de estudando: ${typeof Estudando}
+    tipo de estudando: ${typeof estudando}
     ${limitador}
     Fim da atividade 001
 
