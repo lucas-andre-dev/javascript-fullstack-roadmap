@@ -1,10 +1,10 @@
-let nome="Lucas"
-let idade="25"
-let profissao="Estudante"
-let cidade="Vila Velha"
-let Estudando=true
-let limitador="========================"
-let mensagem=`
+const nome="Lucas"
+const idade=25
+const profissao="Estudante"
+const cidade="Vila Velha"
+const estudando=true
+const limitador="========================"
+const mensagem=`
     ${limitador}
     CARTÃO DO DESENVOLVEDOR
     ${limitador}
@@ -16,11 +16,11 @@ let mensagem=`
     ${limitador}
     TIPOS DAS VARIAVEIS
     ${limitador}
-    tipo de nome: ${typeof(nome)}
-    tipo de idade: ${typeof(idade)}
-    tipo de profissao: ${typeof(profissao)}
-    tipod e cidade: ${typeof(cidade)}
-    tipo de estudando: ${typeof(Estudando)}
+    tipo de nome: ${typeof nome}
+    tipo de idade: ${typeof idade}
+    tipo de profissao: ${typeof profissao}
+    tipod de cidade: ${typeof cidade}
+    tipo de estudando: ${typeof Estudando}
     ${limitador}
     Fim da atividade 001
 
